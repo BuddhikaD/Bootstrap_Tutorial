@@ -7,15 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- <style>
         .row div{padding: 20px 10px;border:1px solid;}
     </style> -->
     <title>Hello, world!</title>
+
+    <style>
+        nav a
+        {
+            color: white;
+        }
+    </style>
+
 </head>
 
-<body>
+<body style="background-color: black;">
 
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -42,8 +50,8 @@
 
         <!-- Jumbotrons -->
 
-        <div class="jumbotron jumbotron-fluid bg-info text-white text-center" style="background-color: #aaa;">
-            <div class="container">
+        <div class="jumbotron jumbotron-fluid bg-info text-white text-center" style="background-color: rgb(0, 0, 0);">
+            <div class="container"">
                 <h1 class="display-1">Welcome to the jumbotron</h1>
                 <p class="lead">Testing jumbotron works on bootstrap</p>
             </div>
@@ -57,8 +65,8 @@
 
         <div class="row">
             <div class="col-md-6 col-lg-3">
-                <div class="card">
-                   <img src="/images/relay.png" class="card-img-top img-fluid"/>
+                <div class="card" style="background-color:#141414; color: white;">
+                   <img src="/images/relay.png" class="card-img-top img-fluid">
                    <div class="card-block">
                        <h3 class="card-title">Mozilla Relay</h3>
                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure qui </p>
@@ -67,8 +75,8 @@
             </div>
 
             <div class="col-md-6 col-lg-3">
-                <div class="card">
-                   <img src="/images/relay.jpg" class="card-img-top img-fluid"/>
+                <div class="card" style="background-color:#141414; color: white;">
+                   <img src="/images/relay.jpg" class="card-img-top img-fluid">
                    <div class="card-block">
                        <h3 class="card-title">Cartoon</h3>
                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure qui </p>
@@ -77,8 +85,8 @@
             </div>
 
             <div class="col-md-6 col-lg-3">
-                <div class="card">
-                   <img src="/images/relay.png" class="card-img-top img-fluid"/>
+                <div class="card" style="background-color:#141414; color: white;">
+                   <img src="/images/relay.png" class="card-img-top img-fluid">
                    <div class="card-block">
                        <h3 class="card-title">Mozilla Relay</h3>
                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure qui </p>
@@ -87,7 +95,7 @@
             </div>
 
             <div class="col-md-6 col-lg-3">
-                <div class="card">
+                <div class="card" style="background-color:#141414; color: white;">
                    <img src="/images/relay.jpg" class="card-img-top img-fluid"/>
                    <div class="card-block">
                        <h3 class="card-title">Cartoon-</h3>
@@ -101,7 +109,7 @@
 
     <!-- bootstrap nav   padding (p) up and down mean Y  and padding left and right mean X, this is also same as the margin(m)-->
     
-    <h2 class="display-4 text-center py-5 my-4">Meet the Speaker</h2>
+    <h2 class="display-4 text-center py-5 my-4" style="color: white;">Meet the Speaker</h2>
 
     <nav class="nav justify-content-center nav-pills flex-column flex-md-row">  <!--meke flex column kiyanne nav bar ek thanikarama column ekk wela thiyenna ona kiyala flex-md-row kiynne colum ek hama device ekakatama column ekk widiyatane pennane eema hri nh ee nisa aayema small device eken udata yaddi md nisa medium size ekee indn row wenawa-->
         <a class="nav-link active" href="#Ninja" data-toggle="tab">The Net Ninja</a>  
@@ -110,24 +118,28 @@
         <a class="nav-link" href="#Avenger" data-toggle="tab">Angular Avenger</a>  
     </nav>
 
-    <div class="tab-content py-5">
-        <div class="tab-pane active" id="Ninja">
-            <h3>The Net Ninja</h3>
-            <p>Lorem ipsum dolor<span data-toggle="tooltip" title="this is tooltip" class="text-info" data-placement="bottom"> sit amet consectetur</span> adipisicing elit. Possimus alias iure voluptate optio, illum doloremque. Cumque quisquam, voluptas cum ullam nisi eveniet est temporibus sunt in voluptatum eligendi aspernatur itaque? Lorem, ipsum dolor sit amet consectetur adipisicing elit. In expedita odit placeatLorem, ipsum dolor sit amet consectetur adipisicing elit. In expedita odit placeat</p> <!--this is tool tip method used code link-->
+    <br><br>
+
+    <center>
+        <div class="tab-content py-5">
+            <div class="tab-pane active" id="Ninja">
+                <h3 style="color: white;">The Net Ninja</h3>
+                <p style="color: white;">Lorem ipsum dolor<span data-toggle="tooltip" title="this is tooltip" class="text-info" data-placement="bottom"> sit amet consectetur</span> adipisicing elit. Possimus alias iure voluptate optio, illum doloremque. Cumque quisquam, voluptas cum ullam nisi eveniet est temporibus sunt in voluptatum eligendi aspernatur itaque? Lorem, ipsum dolor sit amet consectetur adipisicing elit. In expedita odit placeatLorem, ipsum dolor sit amet consectetur adipisicing elit. In expedita odit placeat</p> <!--this is tool tip method used code link-->
+            </div>
+            <div class="tab-pane" id="Wizard">
+                <h3 style="color: white;">The Web Wizard</h3>
+                <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus alias iure voluptate optio, illum doloremque. Cumque quisquam, voluptas cum ullam nisi eveniet est temporibus sunt in voluptatum eligendi aspernatur itaque? Lorem, ipsum dolor sit amet consectetur adipisicing elit. In expedita odit placeatLorem ipsum dolor sit amet consectetur adipisicing elit. Possimus alias iure voluptate optio, illum doloremque. Cumque quisquam, voluptas cum ullam nisi eveniet est temporibus sunt in voluptatum eligendi aspernatur itaque? Lorem, ipsum dolor sit amet consectetur adipisicing elit. In expedita odit placeat</p>
+            </div>
+            <div class="tab-pane" id="Captain">
+                <h3 style="color: white;">Captain Code</h3>
+                <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus alias iure voluptate optio, illum doloremque. Cumque quisquam, voluptas cum ullam nisi eveniet est temporibus sunt in voluptatum eligendi aspernatur itaque? Lorem, ipsum dolor sit amet consectetur adipisicing elit. In expedita odit placeatLorem, ipsum dolor sit amet consectetur adipisicing elit. In expedita odit placeat</p>
+            </div>
+            <div class="tab-pane" id="Avenger">
+                <h3 style="color: white;">Angular Avenger</h3>
+                <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus alias iure voluptate optio, illum doloremque. Cumque quisquam, voluptas cum ullam nisi eveniet est temporibus sunt in voluptatum eligendi aspernatur itaque? Lorem, ipsum dolor sit amet consectetur adipisicing elit. In expedita odit placeatLorem, ipsum dolor sit amet consectetur adipisicing elit. In expedita odit placeat</p>
+            </div>
         </div>
-        <div class="tab-pane" id="Wizard">
-            <h3>The Web Wizard</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus alias iure voluptate optio, illum doloremque. Cumque quisquam, voluptas cum ullam nisi eveniet est temporibus sunt in voluptatum eligendi aspernatur itaque? Lorem, ipsum dolor sit amet consectetur adipisicing elit. In expedita odit placeatLorem ipsum dolor sit amet consectetur adipisicing elit. Possimus alias iure voluptate optio, illum doloremque. Cumque quisquam, voluptas cum ullam nisi eveniet est temporibus sunt in voluptatum eligendi aspernatur itaque? Lorem, ipsum dolor sit amet consectetur adipisicing elit. In expedita odit placeat</p>
-        </div>
-        <div class="tab-pane" id="Captain">
-            <h3>Captain Code</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus alias iure voluptate optio, illum doloremque. Cumque quisquam, voluptas cum ullam nisi eveniet est temporibus sunt in voluptatum eligendi aspernatur itaque? Lorem, ipsum dolor sit amet consectetur adipisicing elit. In expedita odit placeatLorem, ipsum dolor sit amet consectetur adipisicing elit. In expedita odit placeat</p>
-        </div>
-        <div class="tab-pane" id="Avenger">
-            <h3>Angular Avenger</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus alias iure voluptate optio, illum doloremque. Cumque quisquam, voluptas cum ullam nisi eveniet est temporibus sunt in voluptatum eligendi aspernatur itaque? Lorem, ipsum dolor sit amet consectetur adipisicing elit. In expedita odit placeatLorem, ipsum dolor sit amet consectetur adipisicing elit. In expedita odit placeat</p>
-        </div>
-    </div>
+    </center>
 
 
     <!-- Flex Grid -->
@@ -148,7 +160,7 @@
 
     <!-- Grid Basics 
 
-      <!-- this is small device preview with one side 6 columns -->
+       this is small device preview with one side 6 columns -->
     <!-- 
       <div class="container">
           <div class="row" style="background-color: lightblue;">
